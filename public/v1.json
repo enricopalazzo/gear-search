@@ -1,0 +1,1128 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - hotone",
+    "totalResults": "1270",
+    "searchTerms": "hotone",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "013818038484455356401:n0jnz5z1oy8"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - hotone",
+    "totalResults": "1270",
+    "searchTerms": "hotone",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "013818038484455356401:n0jnz5z1oy8"
+   }
+  ]
+ },
+ "context": {
+  "title": "gear-search-app"
+ },
+ "searchInformation": {
+  "searchTime": 0.329897,
+  "formattedSearchTime": "0.33",
+  "totalResults": "1270",
+  "formattedTotalResults": "1,270"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "VStomp Amp from Hotone, a guitar AMP/CAB modeling Software ...",
+   "htmlTitle": "VStomp Amp from \u003cb\u003eHotone\u003c/b\u003e, a guitar AMP/CAB modeling Software ...",
+   "link": "https://www.gearslutz.com/board/so-many-guitars-so-little-time/1199068-vstomp-amp-hotone-guitar-amp-cab-modeling-software-plugin-plus-ir-loader.html",
+   "displayLink": "www.gearslutz.com",
+   "snippet": "Hotone released the VStomp Amp one day before NAMM 2018, works both in PC \nand Mac, supports VST/AU/AAX plugins and Standalone ...",
+   "htmlSnippet": "\u003cb\u003eHotone\u003c/b\u003e released the VStomp Amp one day before NAMM 2018, works both in PC \u003cbr\u003e\nand Mac, supports VST/AU/AAX plugins and Standalone&nbsp;...",
+   "cacheId": "qUyXhYaQ20AJ",
+   "formattedUrl": "https://www.gearslutz.com/.../1199068-vstomp-amp-hotone-guitar-amp-cab- modeling-software-plugin-plus-ir-loader.html",
+   "htmlFormattedUrl": "https://www.gearslutz.com/.../1199068-vstomp-amp-\u003cb\u003ehotone\u003c/b\u003e-guitar-amp-cab- modeling-software-plugin-plus-ir-loader.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQbTEN3sMt4qIKkE0B8ayOPVpM1KaTnx_6twlmbp5_4uEFgaRvwFJC1eEc"
+     }
+    ],
+    "metatags": [
+     {
+      "og:image": "https://static.gearslutz.com/board/images/shareLogo.jpg",
+      "viewport": "width=device-width, initial-scale=0.8, maximum-scale=1.0",
+      "referrer": "origin",
+      "google": "nositelinksearchbox",
+      "theme-color": "#38407A",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@Gearslutzforum",
+      "twitter:creator": "@Gearslutzforum",
+      "twitter:title": "VStomp Amp from Hotone, a guitar AMP/CAB modeling Software/Plugin, plus IR Loader",
+      "twitter:description": "Hotone released the VStomp Amp one day before NAMM 2018, works both in PC and Mac, supports...",
+      "twitter:url": "http://www.gearslutz/board/showthread.php?t=1199068",
+      "twitter:image": "https://static.gearslutz.com/board/images/regbg-yellow.jpg"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "title": "Home",
+      "url": "Home"
+     },
+     {
+      "url": "The Forums",
+      "title": "The Forums"
+     },
+     {
+      "url": "So many guitars, so little time",
+      "title": "So many guitars, so little time"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static.gearslutz.com/board/images/shareLogo.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "New Hotone Nano Legacy Heads | The Gear Page",
+   "htmlTitle": "New \u003cb\u003eHotone\u003c/b\u003e Nano Legacy Heads | The Gear Page",
+   "link": "https://www.thegearpage.net/board/index.php?threads/new-hotone-nano-legacy-heads.1880365/",
+   "displayLink": "www.thegearpage.net",
+   "snippet": "Looks like Hotone is expanding their nano legacy line with Bogner Shiva, 5150, \nEngl, SLO, & Friedman BE voiced mini SS heads. I have the ...",
+   "htmlSnippet": "Looks like \u003cb\u003eHotone\u003c/b\u003e is expanding their nano legacy line with Bogner Shiva, 5150, \u003cbr\u003e\nEngl, SLO, &amp; Friedman BE voiced mini SS heads. I have the&nbsp;...",
+   "cacheId": "mbs_Zb1s4HkJ",
+   "formattedUrl": "https://www.thegearpage.net/board/index.php?threads/...hotone...",
+   "htmlFormattedUrl": "https://www.thegearpage.net/board/index.php?threads/...\u003cb\u003ehotone\u003c/b\u003e...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "96",
+      "height": "96",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq9buDFzClRWLvvkTb9YR4WTiq-FrgqkVDxVzib1YBsprqyd0b2ynT"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:site_name": "The Gear Page",
+      "og:image": "https://img.thegearpage.net/board/data/avatars/m/144/144293.jpg?1450821452",
+      "og:type": "article",
+      "og:url": "https://www.thegearpage.net/board/index.php?threads/new-hotone-nano-legacy-heads.1880365/",
+      "og:title": "New Hotone Nano Legacy Heads",
+      "og:description": "Looks like Hotone is expanding their nano legacy line with Bogner Shiva, 5150, Engl, SLO, & Friedman BE voiced mini SS heads. I have the Mojo Diamond...",
+      "fb:app_id": "134261903638"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Forums",
+      "title": "Forums"
+     },
+     {
+      "url": "The Gear",
+      "title": "The Gear"
+     },
+     {
+      "url": "Amps and Cabs",
+      "title": "Amps and Cabs"
+     }
+    ],
+    "person": [
+     {
+      "role": "Supporting Member"
+     },
+     {
+      "name": "gearscrubs",
+      "title": "Supporting Member"
+     },
+     {
+      "name": "LPMojoGL",
+      "title": "Music Room Superstar",
+      "address": "DFW, TX"
+     },
+     {
+      "name": "gearscrubs",
+      "title": "Supporting Member"
+     },
+     {
+      "name": "guitarman3001",
+      "title": "Member"
+     },
+     {
+      "name": "mysticaxe",
+      "title": "Supporting Member",
+      "address": "Beantown"
+     },
+     {
+      "name": "blackba",
+      "title": "Supporting Member",
+      "address": "Michigan, USA"
+     },
+     {
+      "name": "easyed",
+      "title": "Supporting Member",
+      "address": "Seattle"
+     },
+     {
+      "name": "B Money",
+      "title": "Member"
+     },
+     {
+      "name": "Kevy_Metal",
+      "title": "Member",
+      "address": "Inside a burrito"
+     },
+     {
+      "name": "gearscrubs",
+      "title": "Supporting Member"
+     },
+     {
+      "name": "Wizard of Ozz",
+      "title": "Silver Supporting Member",
+      "address": "The Gates of Hell"
+     },
+     {
+      "name": "IM4Tone",
+      "title": "Member",
+      "address": "State of Confusion"
+     },
+     {
+      "name": "gearscrubs",
+      "title": "Supporting Member"
+     },
+     {
+      "name": "IM4Tone",
+      "title": "Member",
+      "address": "State of Confusion"
+     },
+     {
+      "name": "C-4",
+      "title": "Member",
+      "address": "Europe...I wish!"
+     },
+     {
+      "name": "aequitas",
+      "title": "Member"
+     },
+     {
+      "name": "Lution",
+      "title": "Supporting Member",
+      "address": "Colorado"
+     },
+     {
+      "name": "IM4Tone",
+      "title": "Member",
+      "address": "State of Confusion"
+     },
+     {
+      "name": "sliberty",
+      "title": "Member",
+      "address": "NJ"
+     },
+     {
+      "name": "scott-colorado2016",
+      "title": "Member",
+      "address": "Colorado Springs"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://img.thegearpage.net/board/data/avatars/m/144/144293.jpg?1450821452"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "FAB Metal/ Hotone Whip, or ???? | The Gear Page",
+   "htmlTitle": "FAB Metal/ \u003cb\u003eHotone\u003c/b\u003e Whip, or ???? | The Gear Page",
+   "link": "https://www.thegearpage.net/board/index.php?threads/fab-metal-hotone-whip-or.1805365/",
+   "displayLink": "www.thegearpage.net",
+   "snippet": "The reason I am leaning towards the Danelectro FAB Metal (D-3) and the Hotone \nWhip is their rather cheap price. Still, I felt the need to discuss ...",
+   "htmlSnippet": "The reason I am leaning towards the Danelectro FAB Metal (D-3) and the \u003cb\u003eHotone\u003c/b\u003e \u003cbr\u003e\nWhip is their rather cheap price. Still, I felt the need to discuss&nbsp;...",
+   "cacheId": "ics8B5PTHY4J",
+   "formattedUrl": "https://www.thegearpage.net/board/index.php?threads/...hotone...",
+   "htmlFormattedUrl": "https://www.thegearpage.net/board/index.php?threads/...\u003cb\u003ehotone\u003c/b\u003e...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "96",
+      "height": "96",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpugzNdnh3psHgoLHmNBqZjXkkoyYMtn41iEa5HRrcEIsYNgRPF81U"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:site_name": "The Gear Page",
+      "og:image": "https://img.thegearpage.net/board/data/avatars/m/43/43204.jpg?1462310141",
+      "og:type": "article",
+      "og:url": "https://www.thegearpage.net/board/index.php?threads/fab-metal-hotone-whip-or.1805365/",
+      "og:title": "FAB Metal/ Hotone Whip, or ????",
+      "og:description": "Right... so I was wondering whether or not I should post this for a while now, but my last show's balance made it more of an issue for me. I am...",
+      "fb:app_id": "134261903638"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Forums",
+      "title": "Forums"
+     },
+     {
+      "url": "The Gear",
+      "title": "The Gear"
+     },
+     {
+      "url": "Effects, Pedals, Strings & Things",
+      "title": "Effects, Pedals, Strings & Things"
+     }
+    ],
+    "person": [
+     {
+      "role": "Member"
+     },
+     {
+      "name": "Strife_D",
+      "title": "Member",
+      "address": "Israel"
+     },
+     {
+      "name": "Resonance7",
+      "title": "Member"
+     },
+     {
+      "name": "Strife_D",
+      "title": "Member",
+      "address": "Israel"
+     },
+     {
+      "name": "bgmacaw",
+      "title": "Member",
+      "address": "Atlanta, GA"
+     },
+     {
+      "name": "Strife_D",
+      "title": "Member",
+      "address": "Israel"
+     },
+     {
+      "name": "rsm",
+      "title": "Member",
+      "address": "On an island in the Atlantic Ocean"
+     },
+     {
+      "name": "Strife_D",
+      "title": "Member",
+      "address": "Israel"
+     },
+     {
+      "name": "rsm",
+      "title": "Member",
+      "address": "On an island in the Atlantic Ocean"
+     },
+     {
+      "name": "Gonkboy",
+      "title": "Member"
+     },
+     {
+      "name": "Ghast",
+      "title": "Member"
+     },
+     {
+      "name": "Strife_D",
+      "title": "Member",
+      "address": "Israel"
+     },
+     {
+      "name": "rsm",
+      "title": "Member",
+      "address": "On an island in the Atlantic Ocean"
+     },
+     {
+      "name": "ck3",
+      "title": "Member",
+      "address": "Southcentral CT, USA"
+     },
+     {
+      "name": "Strife_D",
+      "title": "Member",
+      "address": "Israel"
+     },
+     {
+      "name": "Godspeed64",
+      "title": "Member",
+      "address": "Singapore"
+     },
+     {
+      "name": "ck3",
+      "title": "Member",
+      "address": "Southcentral CT, USA"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://img.thegearpage.net/board/data/avatars/m/43/43204.jpg?1462310141"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Hotone Xtomp Multi-Effects Pedal | The Gear Page",
+   "htmlTitle": "\u003cb\u003eHotone\u003c/b\u003e Xtomp Multi-Effects Pedal | The Gear Page",
+   "link": "https://www.thegearpage.net/board/index.php?threads/hotone-xtomp-multi-effects-pedal.1726722/",
+   "displayLink": "www.thegearpage.net",
+   "snippet": "Cool, but it's expensive for a Hotone pedal. One neat feature is that you can have \npedal \"combos\", reverb+od, reverb+delay.. But you cannot ...",
+   "htmlSnippet": "Cool, but it&#39;s expensive for a \u003cb\u003eHotone\u003c/b\u003e pedal. One neat feature is that you can have \u003cbr\u003e\npedal &quot;combos&quot;, reverb+od, reverb+delay.. But you cannot&nbsp;...",
+   "cacheId": "i5bPIZ2fiqgJ",
+   "formattedUrl": "https://www.thegearpage.net/board/index.php?threads/hotone...",
+   "htmlFormattedUrl": "https://www.thegearpage.net/board/index.php?threads/\u003cb\u003ehotone\u003c/b\u003e...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "96",
+      "height": "96",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuyzKH6JxWyi40gecxTbNwr4fosd-6Qtevd2N_HRMKbG6JBNsIJnt9"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:site_name": "The Gear Page",
+      "og:image": "https://img.thegearpage.net/board/data/avatars/m/47/47582.jpg?1524605372",
+      "og:type": "article",
+      "og:url": "https://www.thegearpage.net/board/index.php?threads/hotone-xtomp-multi-effects-pedal.1726722/",
+      "og:title": "Hotone Xtomp Multi-Effects Pedal",
+      "og:description": "[MEDIA]",
+      "fb:app_id": "134261903638"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Forums",
+      "title": "Forums"
+     },
+     {
+      "url": "The Gear",
+      "title": "The Gear"
+     },
+     {
+      "url": "Effects, Pedals, Strings & Things",
+      "title": "Effects, Pedals, Strings & Things"
+     }
+    ],
+    "person": [
+     {
+      "role": "Supporting Member"
+     },
+     {
+      "name": "mikeratan00",
+      "title": "Supporting Member",
+      "address": "Maryland"
+     },
+     {
+      "name": "triviani",
+      "title": "Supporting Member",
+      "address": "Osaka"
+     },
+     {
+      "name": "jzero",
+      "title": "Member"
+     },
+     {
+      "name": "2+2=5",
+      "title": "Member"
+     },
+     {
+      "name": "downburst82",
+      "title": "Member",
+      "address": "North Vancouver, British Columbia, Canada"
+     },
+     {
+      "name": "Tmidiman",
+      "title": "Member",
+      "address": "Chicago area"
+     },
+     {
+      "name": "crxshdxmmy",
+      "title": "Supporting Member",
+      "address": "Indiana"
+     },
+     {
+      "name": "minty901",
+      "title": "Member"
+     },
+     {
+      "name": "downburst82",
+      "title": "Member",
+      "address": "North Vancouver, British Columbia, Canada"
+     },
+     {
+      "name": "Brian Gilmour",
+      "title": "Member",
+      "address": "Alabama"
+     },
+     {
+      "name": "2+2=5",
+      "title": "Member"
+     },
+     {
+      "name": "shack",
+      "title": "Member",
+      "address": "so cal"
+     },
+     {
+      "name": "shack",
+      "title": "Member",
+      "address": "so cal"
+     },
+     {
+      "name": "TEPR",
+      "title": "Member",
+      "address": "LACA"
+     },
+     {
+      "name": "Nota",
+      "title": "Member",
+      "address": "West of Boston"
+     },
+     {
+      "name": "shack",
+      "title": "Member",
+      "address": "so cal"
+     },
+     {
+      "name": "minty901",
+      "title": "Member"
+     },
+     {
+      "name": "minty901",
+      "title": "Member"
+     },
+     {
+      "name": "downburst82",
+      "title": "Member",
+      "address": "North Vancouver, British Columbia, Canada"
+     },
+     {
+      "name": "minty901",
+      "title": "Member"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://img.thegearpage.net/board/data/avatars/m/47/47582.jpg?1524605372"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Hotone Skyline Tuner - Big Thumbs Up! | The Gear Page",
+   "htmlTitle": "\u003cb\u003eHotone\u003c/b\u003e Skyline Tuner - Big Thumbs Up! | The Gear Page",
+   "link": "https://www.thegearpage.net/board/index.php?threads/hotone-skyline-tuner-big-thumbs-up.1526814/",
+   "displayLink": "www.thegearpage.net",
+   "snippet": "I got a Jamman Stereo XT as a gift and wanted to incorporate it into my board, but \nmy previous setup wouldn't fit it; the Hotone Tuner was the ...",
+   "htmlSnippet": "I got a Jamman Stereo XT as a gift and wanted to incorporate it into my board, but \u003cbr\u003e\nmy previous setup wouldn&#39;t fit it; the \u003cb\u003eHotone\u003c/b\u003e Tuner was the&nbsp;...",
+   "cacheId": "FbX04Hz6rzcJ",
+   "formattedUrl": "https://www.thegearpage.net/board/index.php?threads/hotone...",
+   "htmlFormattedUrl": "https://www.thegearpage.net/board/index.php?threads/\u003cb\u003ehotone\u003c/b\u003e...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "300",
+      "height": "168",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ_1R_C3AizRWvefPu5Zdrvkk9U9pQRkwkKjGWQbLDpAS3_VpKHDAxonLON"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:site_name": "The Gear Page",
+      "og:image": "https://www.thegearpage.net/board/styles/thegearpage/xenforo/avatars/avatar_m.png",
+      "og:type": "article",
+      "og:url": "https://www.thegearpage.net/board/index.php?threads/hotone-skyline-tuner-big-thumbs-up.1526814/",
+      "og:title": "Hotone Skyline Tuner - Big Thumbs Up!",
+      "og:description": "Picked this up on a whim over Xmas due to it's size and so far it's a winner!       I got a Jamman Stereo XT as a gift and wanted to incorporate it...",
+      "fb:app_id": "134261903638"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Forums",
+      "title": "Forums"
+     },
+     {
+      "url": "The Gear",
+      "title": "The Gear"
+     },
+     {
+      "url": "Effects, Pedals, Strings & Things",
+      "title": "Effects, Pedals, Strings & Things"
+     }
+    ],
+    "person": [
+     {
+      "role": "Member"
+     },
+     {
+      "name": "gollumsluvslave",
+      "title": "Member",
+      "address": "Edinburgh, Scotland"
+     },
+     {
+      "name": "guitarman3001",
+      "title": "Member"
+     },
+     {
+      "name": "gollumsluvslave",
+      "title": "Member",
+      "address": "Edinburgh, Scotland"
+     },
+     {
+      "name": "guitarman3001",
+      "title": "Member"
+     },
+     {
+      "name": "gollumsluvslave",
+      "title": "Member",
+      "address": "Edinburgh, Scotland"
+     },
+     {
+      "name": "GottaPracticeMore",
+      "title": "Member"
+     },
+     {
+      "name": "dpgreek",
+      "title": "Supporting Member"
+     },
+     {
+      "name": "GottaPracticeMore",
+      "title": "Member"
+     },
+     {
+      "name": "Gonkboy",
+      "title": "Member"
+     },
+     {
+      "name": "branbolio",
+      "title": "Member",
+      "address": "Hawaii"
+     },
+     {
+      "name": "GottaPracticeMore",
+      "title": "Member"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://farm8.staticflickr.com/7545/16186411301_abbaac1d94_c.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Hotone Binary Ir Cab | The Gear Page",
+   "htmlTitle": "\u003cb\u003eHotone\u003c/b\u003e Binary Ir Cab | The Gear Page",
+   "link": "https://www.thegearpage.net/board/index.php?threads/hotone-binary-ir-cab.1926689/",
+   "displayLink": "www.thegearpage.net",
+   "snippet": "Seems to include IR loading and it's cheaper than the Mooer Radar. Anyone \ntested one yet?...",
+   "htmlSnippet": "Seems to include IR loading and it&#39;s cheaper than the Mooer Radar. Anyone \u003cbr\u003e\ntested one yet?...",
+   "cacheId": "1cf8Fly0zqsJ",
+   "formattedUrl": "https://www.thegearpage.net/board/index.php?threads/hotone...ir...",
+   "htmlFormattedUrl": "https://www.thegearpage.net/board/index.php?threads/\u003cb\u003ehotone\u003c/b\u003e...ir...",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:site_name": "The Gear Page",
+      "og:image": "https://www.thegearpage.net/board/styles/thegearpage/xenforo/avatars/avatar_m.png",
+      "og:type": "article",
+      "og:url": "https://www.thegearpage.net/board/index.php?threads/hotone-binary-ir-cab.1926689/",
+      "og:title": "Hotone Binary Ir Cab",
+      "og:description": "Seems to include IR loading and it's cheaper than the Mooer Radar.  Anyone tested one yet?...",
+      "fb:app_id": "134261903638"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Forums",
+      "title": "Forums"
+     },
+     {
+      "url": "The Gear",
+      "title": "The Gear"
+     },
+     {
+      "url": "Digital & Modeling Gear",
+      "title": "Digital & Modeling Gear"
+     }
+    ],
+    "person": [
+     {
+      "role": "Member"
+     },
+     {
+      "name": "Axe-Man",
+      "title": "Member",
+      "address": "Melbourne, Australia"
+     },
+     {
+      "name": "JimSoprano",
+      "title": "Member",
+      "address": "Amsterdam"
+     },
+     {
+      "name": "Unnecessary",
+      "title": "Member"
+     },
+     {
+      "name": "Electric I",
+      "title": "Member"
+     },
+     {
+      "name": "LewisYL",
+      "title": "Member"
+     },
+     {
+      "name": "eriwebnerr",
+      "title": "Member",
+      "address": "New York"
+     },
+     {
+      "name": "Chandlerhimself",
+      "title": "Member",
+      "address": "Yokohama, Japan"
+     },
+     {
+      "name": "jazzbludgeon",
+      "title": "Member"
+     },
+     {
+      "name": "filo01",
+      "title": "Member",
+      "address": "Ostrava, Czech Republic, EU"
+     },
+     {
+      "name": "Electric I",
+      "title": "Member"
+     },
+     {
+      "name": "Jimmyno",
+      "title": "Member"
+     },
+     {
+      "name": "Lord N",
+      "title": "Member"
+     },
+     {
+      "name": "filo01",
+      "title": "Member",
+      "address": "Ostrava, Czech Republic, EU"
+     },
+     {
+      "name": "Lord N",
+      "title": "Member"
+     },
+     {
+      "name": "Elric",
+      "title": "Member"
+     },
+     {
+      "name": "Electric I",
+      "title": "Member"
+     },
+     {
+      "name": "LewisYL",
+      "title": "Member"
+     },
+     {
+      "name": "Holdsworthy",
+      "title": "Member"
+     },
+     {
+      "name": "riffy",
+      "title": "Member"
+     },
+     {
+      "name": "Electric I",
+      "title": "Member"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.thegearpage.net/board/styles/thegearpage/xenforo/avatars/avatar_m.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Hotone Octa | The Gear Page",
+   "htmlTitle": "\u003cb\u003eHotone\u003c/b\u003e Octa | The Gear Page",
+   "link": "https://www.thegearpage.net/board/index.php?threads/hotone-octa.1540536/",
+   "displayLink": "www.thegearpage.net",
+   "snippet": "Has anyone used the Hotone Octa pedal yet? I have the tuner/boost and it's \npretty good. It's not as easy to use as my pitchblack, but the boost is ...",
+   "htmlSnippet": "Has anyone used the \u003cb\u003eHotone\u003c/b\u003e Octa pedal yet? I have the tuner/boost and it&#39;s \u003cbr\u003e\npretty good. It&#39;s not as easy to use as my pitchblack, but the boost is&nbsp;...",
+   "cacheId": "UoDIk7A9o2wJ",
+   "formattedUrl": "https://www.thegearpage.net/board/index.php?threads/hotone-octa...",
+   "htmlFormattedUrl": "https://www.thegearpage.net/board/index.php?threads/\u003cb\u003ehotone\u003c/b\u003e-octa...",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:site_name": "The Gear Page",
+      "og:image": "https://www.thegearpage.net/board/styles/thegearpage/xenforo/avatars/avatar_m.png",
+      "og:type": "article",
+      "og:url": "https://www.thegearpage.net/board/index.php?threads/hotone-octa.1540536/",
+      "og:title": "Hotone Octa",
+      "og:description": "Has anyone used the Hotone Octa pedal yet?  I have the tuner/boost and it's pretty good.  It's not as easy to use as my pitchblack, but the boost is...",
+      "fb:app_id": "134261903638"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Forums",
+      "title": "Forums"
+     },
+     {
+      "url": "The Gear",
+      "title": "The Gear"
+     },
+     {
+      "url": "Effects, Pedals, Strings & Things",
+      "title": "Effects, Pedals, Strings & Things"
+     }
+    ],
+    "person": [
+     {
+      "role": "Member"
+     },
+     {
+      "name": "Gonkboy",
+      "title": "Member"
+     },
+     {
+      "name": "Gonkboy",
+      "title": "Member"
+     },
+     {
+      "name": "justinconn",
+      "title": "Member",
+      "address": "Nashville, TN"
+     },
+     {
+      "name": "ruger9",
+      "title": "Supporting Member",
+      "address": "New Jersey"
+     },
+     {
+      "name": "monkmiles",
+      "title": "Supporting Member",
+      "address": "Boston metrowest, MA"
+     },
+     {
+      "name": "ruger9",
+      "title": "Supporting Member",
+      "address": "New Jersey"
+     },
+     {
+      "name": "mrmxyzptlk",
+      "title": "Member"
+     },
+     {
+      "name": "Javiceres",
+      "title": "Member"
+     },
+     {
+      "name": "jnam",
+      "title": "Member",
+      "address": "Los Angeles"
+     },
+     {
+      "name": "neville5000",
+      "title": "Supporting Member"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.thegearpage.net/board/styles/thegearpage/xenforo/avatars/avatar_m.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Hotone ROTO Rotary Speaker Simulator Pedal (???) | The Gear Page",
+   "htmlTitle": "\u003cb\u003eHotone\u003c/b\u003e ROTO Rotary Speaker Simulator Pedal (???) | The Gear Page",
+   "link": "https://www.thegearpage.net/board/index.php?threads/hotone-roto-rotary-speaker-simulator-pedal.1806571/",
+   "displayLink": "www.thegearpage.net",
+   "snippet": "Clams, how could it be any good? The youtube videos sound decent, for what I \nneed, a decent impression of a leslie sound for occasional use ...",
+   "htmlSnippet": "Clams, how could it be any good? The youtube videos sound decent, for what I \u003cbr\u003e\nneed, a decent impression of a leslie sound for occasional use&nbsp;...",
+   "cacheId": "-ZNuV506UYsJ",
+   "formattedUrl": "https://www.thegearpage.net/board/index.php?threads/hotone...",
+   "htmlFormattedUrl": "https://www.thegearpage.net/board/index.php?threads/\u003cb\u003ehotone\u003c/b\u003e...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "96",
+      "height": "96",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_o6dr2Ps50ZgNeCz2vcPXY--zrwK8U7jNO1lIaneKdB-JdgYNrsOV"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:site_name": "The Gear Page",
+      "og:image": "https://img.thegearpage.net/board/data/avatars/m/6/6961.jpg?1512346420",
+      "og:type": "article",
+      "og:url": "https://www.thegearpage.net/board/index.php?threads/hotone-roto-rotary-speaker-simulator-pedal.1806571/",
+      "og:title": "Hotone ROTO Rotary Speaker Simulator Pedal (???)",
+      "og:description": "$89 Clams, how could it be any good? The youtube videos sound decent, for what I need, a decent impression of a leslie sound for occasional use on a...",
+      "fb:app_id": "134261903638"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Forums",
+      "title": "Forums"
+     },
+     {
+      "url": "The Gear",
+      "title": "The Gear"
+     },
+     {
+      "url": "Effects, Pedals, Strings & Things",
+      "title": "Effects, Pedals, Strings & Things"
+     }
+    ],
+    "person": [
+     {
+      "role": "Supporting Member"
+     },
+     {
+      "name": "stephenT",
+      "title": "Silver Supporting Member",
+      "address": "North GA USA"
+     },
+     {
+      "name": "joelster",
+      "title": "Supporting Member",
+      "address": "Portland, OR"
+     },
+     {
+      "name": "stephenT",
+      "title": "Silver Supporting Member",
+      "address": "North GA USA"
+     },
+     {
+      "name": "Dandolin",
+      "title": "Member",
+      "address": "On the pharm in PA"
+     },
+     {
+      "name": "gavinashun",
+      "title": "Member"
+     },
+     {
+      "name": "stephenT",
+      "title": "Silver Supporting Member",
+      "address": "North GA USA"
+     },
+     {
+      "name": "ruger9",
+      "title": "Supporting Member",
+      "address": "New Jersey"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://img.thegearpage.net/board/data/avatars/m/6/6961.jpg?1512346420"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Yamaha THR or Hotone Nano Legacy head? | The Gear Page",
+   "htmlTitle": "Yamaha THR or \u003cb\u003eHotone\u003c/b\u003e Nano Legacy head? | The Gear Page",
+   "link": "https://www.thegearpage.net/board/index.php?threads/yamaha-thr-or-hotone-nano-legacy-head.1669272/",
+   "displayLink": "www.thegearpage.net",
+   "snippet": "I have not played a Hotone head, but I have read many great things on them too. I \nhave the option of pairing it with the little cabinet that was ...",
+   "htmlSnippet": "I have not played a \u003cb\u003eHotone\u003c/b\u003e head, but I have read many great things on them too. I \u003cbr\u003e\nhave the option of pairing it with the little cabinet that was&nbsp;...",
+   "cacheId": "1QpmzJNDGlkJ",
+   "formattedUrl": "https://www.thegearpage.net/board/index.php?threads/...hotone...",
+   "htmlFormattedUrl": "https://www.thegearpage.net/board/index.php?threads/...\u003cb\u003ehotone\u003c/b\u003e...",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "96",
+      "height": "96",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzMMwPH3Me5lDkaVGnIlQScHEH8FnhnA6nm7y4sJI-rr7TeUWKIGUH"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "og:site_name": "The Gear Page",
+      "og:image": "https://img.thegearpage.net/board/data/avatars/m/153/153163.jpg?1472562128",
+      "og:type": "article",
+      "og:url": "https://www.thegearpage.net/board/index.php?threads/yamaha-thr-or-hotone-nano-legacy-head.1669272/",
+      "og:title": "Yamaha THR or Hotone Nano Legacy head?",
+      "og:description": "Hi everyone,  I have been after a good sounding micro amp to carry around without breaking my back and after doing some research, I have narrowed my...",
+      "fb:app_id": "134261903638"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Home",
+      "title": "Home"
+     },
+     {
+      "url": "Forums",
+      "title": "Forums"
+     },
+     {
+      "url": "The Gear",
+      "title": "The Gear"
+     },
+     {
+      "url": "Amps and Cabs",
+      "title": "Amps and Cabs"
+     }
+    ],
+    "person": [
+     {
+      "role": "Member"
+     },
+     {
+      "name": "TropicBoy",
+      "title": "Member",
+      "address": "Paris"
+     },
+     {
+      "name": "Tim Plains",
+      "title": "Member",
+      "address": "ON"
+     },
+     {
+      "name": "TropicBoy",
+      "title": "Member",
+      "address": "Paris"
+     },
+     {
+      "name": "TropicBoy",
+      "title": "Member",
+      "address": "Paris"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://img.thegearpage.net/board/data/avatars/m/153/153163.jpg?1472562128"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "who know Hotone Binary Amp? - Gearslutz Pro Audio Community",
+   "htmlTitle": "who know \u003cb\u003eHotone\u003c/b\u003e Binary Amp? - Gearslutz Pro Audio Community",
+   "link": "https://www.gearslutz.com/board/so-many-guitars-so-little-time/1210192-who-know-hotone-binary-amp.html",
+   "displayLink": "www.gearslutz.com",
+   "snippet": "As the title,I 've seen a video,about Hotone's new pedal,Binary Amp,it sounds like \ngood,I used to use Hotone Skyline EKO,it's very interesting ...",
+   "htmlSnippet": "As the title,I &#39;ve seen a video,about \u003cb\u003eHotone&#39;s\u003c/b\u003e new pedal,Binary Amp,it sounds like \u003cbr\u003e\ngood,I used to use \u003cb\u003eHotone\u003c/b\u003e Skyline EKO,it&#39;s very interesting&nbsp;...",
+   "cacheId": "2ZYW-J_ADzEJ",
+   "formattedUrl": "https://www.gearslutz.com/.../1210192-who-know-hotone-binary-amp.html",
+   "htmlFormattedUrl": "https://www.gearslutz.com/.../1210192-who-know-\u003cb\u003ehotone\u003c/b\u003e-binary-amp.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "200",
+      "height": "200",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQbTEN3sMt4qIKkE0B8ayOPVpM1KaTnx_6twlmbp5_4uEFgaRvwFJC1eEc"
+     }
+    ],
+    "metatags": [
+     {
+      "og:image": "https://static.gearslutz.com/board/images/shareLogo.jpg",
+      "viewport": "width=device-width, initial-scale=0.8, maximum-scale=1.0",
+      "referrer": "origin",
+      "google": "nositelinksearchbox",
+      "theme-color": "#38407A",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@Gearslutzforum",
+      "twitter:creator": "@Gearslutzforum",
+      "twitter:title": "who know Hotone Binary Amp?",
+      "twitter:description": "As the title,I 've seen a video,about Hotone's new pedal,Binary Amp,it sounds like good,I used to...",
+      "twitter:url": "http://www.gearslutz/board/showthread.php?t=1210192",
+      "twitter:image": "https://static.gearslutz.com/board/images/regbg-yellow.jpg"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "title": "Home",
+      "url": "Home"
+     },
+     {
+      "url": "The Forums",
+      "title": "The Forums"
+     },
+     {
+      "url": "So many guitars, so little time",
+      "title": "So many guitars, so little time"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://static.gearslutz.com/board/images/shareLogo.jpg"
+     }
+    ]
+   }
+  }
+ ]
+}
