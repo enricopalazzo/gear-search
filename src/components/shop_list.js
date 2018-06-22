@@ -8,15 +8,19 @@ class ShopList extends Component {
     super(props);
     this.state = {
       average_price: null,
-      min_price: {}
+      min_price: {},
+      is_loading: true
     }
   }
   componentWillMount() {
     //  var average_price = _.sumBy(this.props.shop_results, 'price'); 
-    var average_price = _.meanBy(this.props.shop_results, 'price')
+    var average_price = Math.round(_.meanBy(this.props.shop_results, 'price') * 100) / 100;
     this.setState({ average_price: average_price });
-    var min_price = _.minBy(this.props.shop_results, 'price')
+    var min_price = _.minBy(this.props.shop_results, 'price');
     this.setState({ min_price: min_price });
+    if (this.props.isLoading === false) {
+      this.setState({ is_loading: false });
+    }
   }
   render() {
     var colClass = (this.props.isDashboard ? '' : 'card-columns');
@@ -30,11 +34,14 @@ class ShopList extends Component {
 
     return (
       <div>
-        <h5>Min price:  <strong>${this.state.min_price ? this.state.min_price.price : null}</strong> |
+
+            <div>        <h5>Min price:  <strong>${this.state.min_price ? this.state.min_price.price : null}</strong> |
       Average price: <strong>${this.state.average_price}</strong> </h5>
-        <div className={colClass}>
-          {shopItem}
-        </div>
+              <div className={colClass}>
+                {shopItem}
+              </div></div>
+
+
       </div>
     );
   }

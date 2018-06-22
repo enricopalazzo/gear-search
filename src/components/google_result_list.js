@@ -9,18 +9,19 @@ class GoogleList extends Component {
   }
   render() {
     var colClass = (this.props.isDashboard ? '' : 'card-columns');
-   /* const ShowList = (props) => {
-      if (this.props.isDashboard) {
-        return (<div>
-          {googleItem}
-        </div>)
-      }
-      else {
-        return (<div className="card-columns">
-          {googleItem}
-        </div>);
-      }
-    }*/
+    /* const ShowList = (props) => {
+       if (this.props.isDashboard) {
+         return (<div>
+           {googleItem}
+         </div>)
+       }
+       else {
+         return (<div className="card-columns">
+           {googleItem}
+         </div>);
+       }
+       
+     }*/
     const googleItem = _.map(_.take(this.props.gresults, this.props.itemsToShow), function (value, key) {
       return (<GoogleListItem
         key={value.cacheId}
@@ -28,7 +29,7 @@ class GoogleList extends Component {
     });
     return (
       <div className={colClass}>
-         {googleItem}
+        {googleItem}
       </div>
     );
   };

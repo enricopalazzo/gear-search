@@ -13,8 +13,9 @@ import VideoDetail from './components/video_detail';
 import TabNav from './components/tab_nav';
 import Tools from './components/tools';
 
-const API_KEY = 'THEYYOUTUBEAPIKEY'; //youtube
-//const cx = 'thegooglecs';
+const API_KEY = 'AIzaSyAiY8rQCjCySS_l9ooDj8W68rLZWFKeOEY'; //youtube
+const cx = '013818038484455356401:n0jnz5z1oy8';
+//const API_KEY ='AIzaSyCgS3YNfgTP-0bwcBnPLOZE4IgK8FdFfHA'; //YOUTUBE
 
 let apiUrls = 'https://www.googleapis.com/customsearch/v1?';
 //let apiUrls = 'https://www.googleapis.com/customsearch/v1';?key=AIzaSyDLQA4Jtbh64KsCRlibpPvrWF_hp8ntjDc&cx=017415597714000173983:ghxs05ehywa&q=`;
@@ -27,13 +28,16 @@ class App extends Component {
       se_results: null,
       shop_results: null,
       API_KEY: API_KEY,
-     // cx: cx,
+      cx: cx,
       search_started: null,
       term: null,
       videos: [],
       selected_video: null,
       savedSearchs: [],
-      isDashboard: false
+      isDashboard: false,
+      shop_loading: false,
+      video_loading: false,
+      web_loading: false
     };
     //this.videoSearch(' ');
     this.getFromGoogle = this.getFromGoogle.bind(this);
@@ -45,8 +49,10 @@ class App extends Component {
   }
   componentWillMount() {
     try {
-      let values = JSON.parse(localStorage.getItem("savedSearch"))
-      this.setState({ savedSearchs: values });
+      let values = JSON.parse(localStorage.getItem("savedSearch"));
+      if (values !== null) {
+        this.setState({ savedSearchs: values });
+      }
     } catch (ex) {
       console.log("no hay savedsearchs");
     }
@@ -98,6 +104,7 @@ class App extends Component {
     this.getFromShops();
   }
   videoSearch(term, limit = 20) {
+    this.setState({video_loading:true});
     console.log("el termo " + this.state.term + " limit " + limit);
     YTSearch({
       key: API_KEY,
@@ -108,26 +115,40 @@ class App extends Component {
       (videos) => {
         this.setState({
           videos: videos,
-          selected_video: videos[0]
+          selected_video: videos[0],
+          video_loading:false
         });
       });
   }
   getFromShops() {
-      axios.get('https://my.api.mockaroo.com/products.json?key=[THE mMOCKAROO KEY]')
-        .then(response => this.setState({ shop_results: response.data }))
-      
+    this.setState({shop_loading:true});
+    axios.get('https://my.api.mockaroo.com/products.json?key=429a6dc0')
+      .then(
+        response => {
+          this.setState({ shop_results: response.data })
+          this.setState({ shop_loading: false});
+        }
+      )
+
+
     /*axios.get('http://localhost:3000/products.json')
       .then(response => this.setState({ shop_results: response.data }))*/
   }
   getFromGoogle(term) {
-    console.log(term);
+    this.setState({web_loading:true});
     //GOOGLE CUSTOM SEARCH RESULTS API. IS LIMITED SO ONLY USE IT WHEN SHOWING THE PROTOTYPE WITH REAL RESULTS
-    //axios.get('https://www.googleapis.com/customsearch/v1?key=GOOGLEAPIKEY&cx=GOOGLECXKEY&q=hotone')  this.setState({results: response.data.items})
+    //axios.get('https://www.googleapis.com/customsearch/v1?key=AIzaSyDLQA4Jtbh64KsCRlibpPvrWF_hp8ntjDc&cx=013818038484455356401:n0jnz5z1oy8&q=hotone')  this.setState({results: response.data.items})
     // axios.get('https://search.4ray.co?q='+term+'%20site%3Athegearpage.net&categories=general&pageno=2&language=en&format=json')
 
     //MOCKARRO API THAT SIMULATES GOOGLE CUSTOMSEARCH RESULTS 
-   axios.get('https://my.api.mockaroo.com/search.json?key=[THE mMOCKAROO KEY]')
-          .then(response => this.setState({ se_results: response.data.items }))
+    axios.get('https://my.api.mockaroo.com/search.json?key=429a6dc0')
+  //    .then(response => this.setState({ se_results: response.data.items }))
+      .then(
+        response => {
+          this.setState({ se_results: response.data.items })
+          this.setState({ web_loading: false});
+        }
+      )
 
     /*axios.get('http://localhost:3000/v1.json')
       .then(response => this.setState({ se_results: response.data.items }))*/
@@ -139,30 +160,37 @@ class App extends Component {
       return (
         <div className="row">
           <div className="col-md-4">
+          <div className={this.state.video_loading ? ("loading") : (null)}>
             <h4>Videos </h4>
             <p>Results from Youtube</p>
             <VideoDetail video={this.state.selected_video} />
             <VideoList
+              isLoading={this.state.video_loading}
               onVideoSelect={selected_video => this.setState({ selected_video })}
               videos={this.state.videos}
               isDashboard={true}
               itemsToShow={3} />
+              </div>
           </div>
           <div className="col-md-4">
             <h4>From the Web</h4>
             <p>Results from forums, blogs, magazines, etc</p>
+            <div className={this.state.web_loading ? ("loading") : (null)}>
             <GoogleList
               gresults={this.state.se_results}
               itemsToShow={5}
               isDashboard={true} />
+              </div>
           </div>
           <div className="col-md-4">
             <h4>Shop</h4>
+            <div className={this.state.shop_loading ? ("loading") : (null)}>
             <p>Results from online stores</p>
             <ShopList
               shop_results={this.state.shop_results}
               itemsToShow={3}
               isDashboard={true} />
+              </div>
           </div>
         </div>
       );
@@ -170,40 +198,50 @@ class App extends Component {
     const VideoPage = (props) => {
       return (
         <div className="row">
+        
           <div className="col-md-8">
+          <div className={this.state.video_loading ? ("loading") : (null)}>
             <VideoDetail video={this.state.selected_video} />
+            </div>
           </div>
           <div className="col-md-4">
+          <div className={this.state.video_loading ? ("loading") : (null)}>
             <VideoList
               onVideoSelect={selected_video => this.setState({ selected_video })}
               videos={this.state.videos}
               isDashboard={false} />
           </div>
+          </div>
         </div>
       );
     }
     const ShopPage = (props) => {
-      return (
-        <div className="row">
-          <div className="col-md-12">
-            <h2>Shop page</h2>
-            <ShopList
-              shop_results={this.state.shop_results}
-              itemsToShow={20}
-              isDashboard={false} />
+        return (
+          <div className="row">
+            <div className="col-md-12">
+              <h2>Shop page</h2>
+              <div className={this.state.shop_loading ? ("loading") : (null)}>
+              <ShopList
+              
+                shop_results={this.state.shop_results}
+                itemsToShow={20}
+                isDashboard={false} />
+                </div>
+            </div>
           </div>
-        </div>
-      );
+        );
     }
     const OnTheWebPage = (props) => {
       return (
         <div className="row">
           <div className="col-md-12">
             <h2>Results from the Web</h2>
+            <div className={this.state.web_loading ? ("loading") : (null)}>
             <GoogleList
               gresults={this.state.se_results}
               itemsToShow={20}
               isDashboard={false} />
+              </div>
           </div>
         </div>
       );
@@ -225,8 +263,8 @@ class App extends Component {
     }
 
     var NoSearchContents = (props) => {
-      return <div style={{width:"80%",paddingTop:"50px", margin:"auto", textAlign:"center"}}> <h4>Please do some searchin' </h4>
-      <blockquote style={{width:"320px",margin:"auto", textAlign:"center"}}><strong>Note:</strong> work in progress. This current Demo is not connecting to real APIS (Google, Amazon,ect) because of the search limits</blockquote>  </div>;
+      return <div style={{ width: "80%", paddingTop: "50px", margin: "auto", textAlign: "center" }}> <h4>Please do some searchin' </h4>
+        <blockquote style={{ width: "320px", margin: "auto", textAlign: "center" }}><strong>Note:</strong> work in progress. This current Demo is not connecting to real APIS (Google, Amazon,ect) because of the search limits</blockquote>  </div>;
     }
 
     var TheTabs = (props) => {
