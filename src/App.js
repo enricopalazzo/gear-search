@@ -15,7 +15,7 @@ import Tools from './components/tools';
 
 const API_KEY = '------'; //youtube
 const cx = '-------';
-//const API_KEY ='AIzaSyCgS3YNfgTP-0bwcBnPLOZE4IgK8FdFfHA'; //YOUTUBE
+//const API_KEY ='--------'; //YOUTUBE
 
 let apiUrls = 'https://www.googleapis.com/customsearch/v1?';
 //let apiUrls = 'https://www.googleapis.com/customsearch/v1';?key=------&cx=----:----`;
