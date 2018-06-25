@@ -13,12 +13,12 @@ import VideoDetail from './components/video_detail';
 import TabNav from './components/tab_nav';
 import Tools from './components/tools';
 
-const API_KEY = 'AIzaSyAiY8rQCjCySS_l9ooDj8W68rLZWFKeOEY'; //youtube
-const cx = '013818038484455356401:n0jnz5z1oy8';
+const API_KEY = '------'; //youtube
+const cx = '-------';
 //const API_KEY ='AIzaSyCgS3YNfgTP-0bwcBnPLOZE4IgK8FdFfHA'; //YOUTUBE
 
 let apiUrls = 'https://www.googleapis.com/customsearch/v1?';
-//let apiUrls = 'https://www.googleapis.com/customsearch/v1';?key=AIzaSyDLQA4Jtbh64KsCRlibpPvrWF_hp8ntjDc&cx=017415597714000173983:ghxs05ehywa&q=`;
+//let apiUrls = 'https://www.googleapis.com/customsearch/v1';?key=------&cx=----:----`;
 
 class App extends Component {
 
@@ -137,7 +137,7 @@ class App extends Component {
   getFromGoogle(term) {
     this.setState({web_loading:true});
     //GOOGLE CUSTOM SEARCH RESULTS API. IS LIMITED SO ONLY USE IT WHEN SHOWING THE PROTOTYPE WITH REAL RESULTS
-    //axios.get('https://www.googleapis.com/customsearch/v1?key=AIzaSyDLQA4Jtbh64KsCRlibpPvrWF_hp8ntjDc&cx=013818038484455356401:n0jnz5z1oy8&q=hotone')  this.setState({results: response.data.items})
+    //axios.get('https://www.googleapis.com/customsearch/v1?key=-----&cx=------:----&q=----')  this.setState({results: response.data.items})
     // axios.get('https://search.4ray.co?q='+term+'%20site%3Athegearpage.net&categories=general&pageno=2&language=en&format=json')
 
     //MOCKARRO API THAT SIMULATES GOOGLE CUSTOMSEARCH RESULTS 
