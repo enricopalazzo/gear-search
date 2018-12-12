@@ -17,10 +17,10 @@ class Tools extends Component {
 
     return (
       <div>
-        <a href="#" className="btn btn-warning" onClick={this.props.saveToLocal}>Save current Search </a>
+        <a href="#" className="btn btn-light" onClick={this.props.saveToLocal}>Save current Search 💾</a>
         <hr />
         <h5>Your saved searchs</h5>
-        <ul>
+        <ul className="saved-searchs">
           {SearchItems}
         </ul>
       </div>

@@ -9,7 +9,7 @@ class ProductPage extends Component {
   render() {
  
     return (
-  <div><h2>Search For your Gear ⚙</h2></div>
+  <div style={{padding:'15px'}}><h2>Search For your Gear ⚙</h2></div>
     );
   }
 }

@@ -263,8 +263,8 @@ class App extends Component {
     }
 
     var NoSearchContents = (props) => {
-      return <div style={{ width: "80%", paddingTop: "50px", margin: "auto", textAlign: "center" }}> <h4>Please do some searchin' </h4>
-        <blockquote style={{ width: "320px", margin: "auto", textAlign: "center" }}><strong>Note:</strong> work in progress. This current Demo is not connecting to real APIS (Google, Amazon,ect) because of the search limits</blockquote>  </div>;
+      return <div style={{ width: "80%", paddingTop: "50px", margin: "auto", textAlign: "center" }}> <h4>Please do some searching </h4>
+        <blockquote style={{ width: "320px", margin: "auto", textAlign: "center" }}><strong>Note:</strong> work in progress. This current Demo is not connecting to real API's (Google, Amazon, etc) because of the search limits</blockquote>  </div>;
     }
 
     var TheTabs = (props) => {
